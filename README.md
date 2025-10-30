@@ -25,8 +25,6 @@ python3 create_data.py --benchmarks kmeans fir
 Interactive prompt (multiple names allowed, space or comma separated):
 ```bash
 python3 create_data.py
-# then enter, for example:
-# Enter benchmark name(s) (e.g., kmeans or kmeans,svm): kmeans, fir
 ```
 
 ## What the script does
