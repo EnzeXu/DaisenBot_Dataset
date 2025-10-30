@@ -4,7 +4,7 @@
     "benchmark_path": "../mgpusim/amd/samples/",
     "benchmark_base_arg": "-timing -trace-vis",
     "benchmark_trace_filename_arg": "-trace-vis-db-file",
-    "benchmark_trace_min_size_MB": 10,
+    "benchmark_trace_min_size_MB": 200,
     "benchmark_list": [
         "fir",
         "matrixmuiltiplication",
