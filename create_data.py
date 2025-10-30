@@ -266,7 +266,7 @@ def process_benchmark(profile, bench_name):
         normal_values_lists.append(vals)
 
     # generate all combinations
-    normal_combinations = list(product(*normal_values_lists)) if normal_values_lists else [()]
+    normal_combinations = list(product(*normal_values_lists)) if normal_values_lists else []
 
     for combo in normal_combinations:
         # build command tokens
