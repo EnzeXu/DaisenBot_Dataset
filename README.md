@@ -47,36 +47,45 @@ Sample output:
 ```text
 receive 2 benchmarks to process: fir, kmeans
 [fir build] building benchmark in ../mgpusim/amd/samples/fir
-[fir base] base size -length 32: 0.59 MB (< 10 MB)
-[fir base] base size -length 64: 0.73 MB (< 10 MB)
-[fir base] base size -length 128: 1.33 MB (< 10 MB)
-[fir base] base size -length 256: 2.58 MB (< 10 MB)
-[fir base] base size -length 512: 5.05 MB (< 10 MB)
-[fir base] base size -length 1024: 10.01 MB (>= 10 MB)
-[fir base] base size is set to -length 1024
-[fir base] D0200000.sqlite3 (10.01 MB): /your/path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 1024
-[fir special] D0210001.sqlite3 (10.01 MB): /your/path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 1024 -use-unified-memory
-[fir special] D0210002.sqlite3 (10.98 MB): /your/path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 1024 -gpus 1,2,3
-[fir special] D0210003.sqlite3 (10.12 MB): /your/path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 1024 -unified-gpus 1,2
-[fir special] D0210004.sqlite3 (10.01 MB): /your/path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 1024 -wf-sampling
-[fir special] D0210005.sqlite3 (10.01 MB): /your/path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 1024 -sampled-granulary 2048
-[fir special] D0210006.sqlite3 (10.01 MB): /your/path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 1024 -sampled-threshold 0.05
+[fir base] base size -length 32: 0.59 MB (< 200 MB)
+[fir base] base size -length 64: 0.73 MB (< 200 MB)
+[fir base] base size -length 128: 1.33 MB (< 200 MB)
+[fir base] base size -length 256: 2.58 MB (< 200 MB)
+[fir base] base size -length 512: 5.05 MB (< 200 MB)
+[fir base] base size -length 1024: 10.01 MB (< 200 MB)
+[fir base] base size -length 2048: 20.13 MB (< 200 MB)
+[fir base] base size -length 4096: 40.51 MB (< 200 MB)
+[fir base] base size -length 8192: 81.52 MB (< 200 MB)
+[fir base] base size -length 16384: 165.15 MB (< 200 MB)
+[fir base] base size -length 32768: 331.21 MB (>= 200 MB)
+[fir base] base size is set to -length 32768
+[fir base] D0200000.sqlite3 (331.21 MB): /path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 32768
+[fir special] D0210001.sqlite3 (331.21 MB): /path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 32768 -use-unified-memory
+[fir special] D0210002.sqlite3 (333.84 MB): /path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 32768 -gpus 1,2,3
+[fir special] D0210003.sqlite3 (336.07 MB): /path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 32768 -unified-gpus 1,2
+[fir special] D0210004.sqlite3 (331.21 MB): /path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 32768 -wf-sampling
+[fir special] D0210005.sqlite3 (331.21 MB): /path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 32768 -sampled-granulary 2048
+[fir special] D0210006.sqlite3 (331.21 MB): /path/to/mgpusim/amd/samples/fir/fir -timing -trace-vis -length 32768 -sampled-threshold 0.05
 [fir] All done. Generated 7 trace files (including base). Data stored in ./data, records in ./data_record.
 [kmeans build] building benchmark in ../mgpusim/amd/samples/kmeans
-[kmeans base] base size -points 32: 18.79 MB (>= 10 MB)
-[kmeans base] base size is set to -points 32
-[kmeans base] D1100000.sqlite3 (18.79 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32
-[kmeans normal] D1100001.sqlite3 (14.14 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -clusters 5 -features 32
-[kmeans normal] D1100002.sqlite3 (28.23 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -clusters 5 -features 64
-[kmeans normal] D1100003.sqlite3 (56.18 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -clusters 5 -features 128
-[kmeans normal] D1100004.sqlite3 (23.03 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -clusters 10 -features 32
-[kmeans normal] D1100005.sqlite3 (46.12 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -clusters 10 -features 64
-[kmeans normal] D1100006.sqlite3 (92.17 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -clusters 10 -features 128
-[kmeans special] D1110007.sqlite3 (14.14 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -use-unified-memory
-[kmeans special] D1110008.sqlite3 (31.02 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -gpus 1,2,3
-[kmeans special] D1110009.sqlite3 (19.09 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -unified-gpus 1,2
-[kmeans special] D1110010.sqlite3 (18.79 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -wf-sampling
-[kmeans special] D1110011.sqlite3 (14.14 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -sampled-granulary 2048
-[kmeans special] D1110012.sqlite3 (14.14 MB): /your/path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 32 -sampled-threshold 0.05
+[kmeans base] base size -points 32: 18.79 MB (< 200 MB)
+[kmeans base] base size -points 64: 27.72 MB (< 200 MB)
+[kmeans base] base size -points 128: 80.42 MB (< 200 MB)
+[kmeans base] base size -points 256: 166.89 MB (< 200 MB)
+[kmeans base] base size -points 512: 336.83 MB (>= 200 MB)
+[kmeans base] base size is set to -points 512
+[kmeans base] D1100000.sqlite3 (336.83 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512
+[kmeans normal] D1100001.sqlite3 (336.83 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -clusters 5 -features 32
+[kmeans normal] D1100002.sqlite3 (667.82 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -clusters 5 -features 64
+[kmeans normal] D1100003.sqlite3 (1369.66 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -clusters 5 -features 128
+[kmeans normal] D1100004.sqlite3 (586.03 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -clusters 10 -features 32
+[kmeans normal] D1100005.sqlite3 (1172.42 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -clusters 10 -features 64
+[kmeans normal] D1100006.sqlite3 (2380.27 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -clusters 10 -features 128
+[kmeans special] D1110007.sqlite3 (336.83 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -use-unified-memory
+[kmeans special] D1110008.sqlite3 (399.55 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -gpus 1,2,3
+[kmeans special] D1110009.sqlite3 (351.4 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -unified-gpus 1,2
+[kmeans special] D1110010.sqlite3 (336.83 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -wf-sampling
+[kmeans special] D1110011.sqlite3 (336.83 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -sampled-granulary 2048
+[kmeans special] D1110012.sqlite3 (336.83 MB): /path/to/mgpusim/amd/samples/kmeans/kmeans -timing -trace-vis -points 512 -sampled-threshold 0.05
 [kmeans] All done. Generated 13 trace files (including base). Data stored in ./data, records in ./data_record.
 ```
