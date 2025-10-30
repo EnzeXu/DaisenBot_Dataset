@@ -1,0 +1,52 @@
+{
+    "data_save_path": "./data",
+    "data_record_save_path": "./data_record",
+    "benchmark_path": "../mgpusim/amd/samples/",
+    "benchmark_base_arg": "-timing -trace-vis",
+    "benchmark_trace_filename_arg": "-trace-vis-db-file",
+    "benchmark_trace_min_size_MB": 10,
+    "benchmark_list": [
+        "fir",
+        "matrixmuiltiplication",
+        "kmeans",
+        ""
+    ],
+    "benchmark_config": {
+        "fir": {
+            "id": "02",
+            "base_script": "./fir",
+            "size_arg": "-length",
+            "size_arg_start": 32,
+            "normal_arg_list": [],
+            "normal_arg_values": {
+            },
+            "special_arg_list": [
+                "-use-unified-memory",
+                "-gpus 1,2,3",
+                "-unified-gpus 1,2",
+                "-wf-sampling",
+                "-sampled-granulary 2048",
+                "-sampled-threshold 0.05"
+            ]
+        },
+        "kmeans": {
+            "id": "11",
+            "base_script": "./kmeans",
+            "size_arg": "-points",
+            "size_arg_start": 32,
+            "normal_arg_list": ["-clusters", "-features"],
+            "normal_arg_values": {
+                "clusters": [5, 10],
+                "features": [32, 64, 128]
+            },
+            "special_arg_list": [
+                "-use-unified-memory",
+                "-gpus 1,2,3",
+                "-unified-gpus 1,2",
+                "-wf-sampling",
+                "-sampled-granulary 2048",
+                "-sampled-threshold 0.05"
+            ]
+        }
+    }
+}
