@@ -1,4 +1,3 @@
-# google_drive.py
 """
 Utilities to authenticate with Google Drive API and download/upload files
 using a human-friendly path like "My Drive/Dataset/file.csv".
@@ -13,6 +12,7 @@ import os
 import io
 from typing import Optional, List, Tuple
 from pathlib import Path
+from tqdm import tqdm
 
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
@@ -254,7 +254,7 @@ def upload_files(src_and_targets: List[Tuple[str, str]], service=None, overwrite
     if service is None:
         service, _ = get_service()
     results = []
-    for src, drive_target in src_and_targets:
+    for src, drive_target in tqdm(src_and_targets):
         try:
             file_id = upload_file(src, drive_target, service=service, overwrite=overwrite)
             results.append((src, drive_target, True, file_id))
