@@ -1,0 +1,39 @@
+[
+  {
+    "id": "V020000000",
+    "data_id": "D0200000",
+    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+  },
+  {
+    "id": "V020000000",
+    "data_id": "D0200000",
+    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+  },
+  {
+    "id": "V020000000",
+    "data_id": "D0200000",
+    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+  },
+  {
+    "id": "V020000000",
+    "data_id": "D0200000",
+    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+  },
+  {
+    "id": "V020000000",
+    "data_id": "D0200000",
+    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
+    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+  }
+]
+
+

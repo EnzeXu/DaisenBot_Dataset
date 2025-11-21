@@ -10,5 +10,7 @@ data_record_example.json
 logs.txt
 akita_sim*
 
+*_backup/
+
 .credentials.json
 .token.json

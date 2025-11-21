@@ -21,32 +21,111 @@
             "normal_arg_values": {
             },
             "special_arg_list": [
-                "-use-unified-memory",
-                "-gpus 1,2,3",
-                "-unified-gpus 1,2",
-                "-wf-sampling",
-                "-sampled-granulary 2048",
-                "-sampled-threshold 0.05"
+
+            ]
+        },
+        "nw": {
+            "id": "03",
+            "base_script": "./nw",
+            "size_arg": "-length",
+            "size_arg_start": 16,
+            "normal_arg_list": [],
+            "normal_arg_values": {
+            },
+            "special_arg_list": [
+            ]
+        },
+        "pagerank": {
+            "id": "06",
+            "base_script": "./pagerank",
+            "size_arg": "-node",
+            "size_arg_start": 16,
+            "normal_arg_list": [],
+            "normal_arg_values": {
+            },
+            "special_arg_list": [
+            ]
+        },
+        "bfs": {
+            "id": "07",
+            "base_script": "./bfs",
+            "size_arg": "-node", 
+            "size_arg_start": 16, 
+            "normal_arg_list": [],
+            "normal_arg_values": {
+
+            },
+            "special_arg_list": [
+            ]
+        },
+        "relu": {
+            "id": "09",
+            "base_script": "./relu",
+            "size_arg": "-length",
+            "size_arg_start": 128,
+            "normal_arg_list": [],
+            "normal_arg_values": {
+            },
+            "special_arg_list": [
+            ]
+        },
+        "bicg": {
+            "id": "10",
+            "base_script": "./bicg",
+            "size_arg": "-x",
+            "size_arg_start": 16,
+            "normal_arg_list": [],
+            "normal_arg_values": {
+            },
+            "special_arg_list": [
+
             ]
         },
         "kmeans": {
             "id": "11",
             "base_script": "./kmeans",
             "size_arg": "-points",
-            "size_arg_start": 32,
-            "normal_arg_list": ["-clusters", "-features"],
+            "size_arg_start": 64,
+            "normal_arg_list": [],
             "normal_arg_values": {
-                "clusters": [5, 10],
-                "features": [32, 64, 128]
             },
             "special_arg_list": [
-                "-use-unified-memory",
-                "-gpus 1,2,3",
-                "-unified-gpus 1,2",
-                "-wf-sampling",
-                "-sampled-granulary 2048",
-                "-sampled-threshold 0.05"
+            ]
+        },
+        "matrixmultiplication": {
+            "id": "14",
+            "base_script": "./matrixmultiplication",
+            "size_arg": "-x",
+            "size_arg_start": 16,
+            "normal_arg_list": [],
+            "normal_arg_values": {
+            },
+            "special_arg_list": [
+            ]
+        },
+        "matrixtranspose": {
+            "id": "16",
+            "base_script": "./matrixtranspose",
+            "size_arg": "-width",
+            "size_arg_start": 32,
+            "normal_arg_list": [],
+            "normal_arg_values": {
+            },
+            "special_arg_list": [
+            ]
+        },
+        "spmv": {
+            "id": "17",
+            "base_script": "./spmv",
+            "size_arg": "-dim",
+            "size_arg_start": 32,
+            "normal_arg_list": [],
+            "normal_arg_values": {
+            },
+            "special_arg_list": [
             ]
         }
     }
 }
+
+
