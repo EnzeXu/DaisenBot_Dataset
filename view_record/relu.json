@@ -1,0 +1,39 @@
+[
+  {
+    "id": "V090000000",
+    "data_id": "D0900000",
+    "view_url": "http://localhost:3001/dashboard?starttime=0.00011339833192696237&endtime=0.0001169156748536511&filter=l1v&page=0",
+    "view_url_func": "/dashboard?starttime=0.00011339833192696237&endtime=0.0001169156748536511&filter=l1v&page=0",
+    "view_url_params": {"starttime": "0.00011339833192696237", "endtime": "0.0001169156748536511", "filter": "l1v", "page": "0"}
+  },
+  {
+    "id": "V090000001",
+    "data_id": "D0900000",
+    "view_url": "http://localhost:3001/component?name=Driver&starttime=-0.000050164817383269647&endtime=0.0002003638302497438",
+    "view_url_func": "/component?name=Driver&starttime=-0.000050164817383269647&endtime=0.0002003638302497438",
+    "view_url_params": {"name": "Driver", "starttime": "-0.000050164817383269647", "endtime": "0.0002003638302497438"}
+  },
+  {
+    "id": "V090000002",
+    "data_id": "D0900000",
+    "view_url": "http://localhost:3001/component?name=GPU%5B1%5D.L2Cache%5B5%5D&starttime=0.00010567587471223956&endtime=0.00012441979431134832",
+    "view_url_func": "/component?name=GPU%5B1%5D.L2Cache%5B5%5D&starttime=0.00010567587471223956&endtime=0.00012441979431134832",
+    "view_url_params": {"name": "GPU[1].L2Cache[5]", "starttime": "0.00010567587471223956", "endtime": "0.00012441979431134832"}
+  },
+  {
+    "id": "V090000003",
+    "data_id": "D0900000",
+    "view_url": "http://localhost:3001/component?name=GPU%5B1%5D.DRAM%5B6%5D&starttime=0.00009360012347761028&endtime=0.00014023803281678843",
+    "view_url_func": "/component?name=GPU%5B1%5D.DRAM%5B6%5D&starttime=0.00009360012347761028&endtime=0.00014023803281678843",
+    "view_url_params": {"name": "GPU[1].DRAM[6]", "starttime": "0.00009360012347761028", "endtime": "0.00014023803281678843"}
+  },
+  {
+    "id": "V090000004",
+    "data_id": "D0900000",
+    "view_url": "http://localhost:3001/task?id=2367469&starttime=0.00010928514427802514&endtime=0.00011705000843092624",
+    "view_url_func": "/task?id=2367469&starttime=0.00010928514427802514&endtime=0.00011705000843092624",
+    "view_url_params": {"id": "2367469", "starttime": "0.00010928514427802514", "endtime": "0.00011705000843092624"}
+  }
+]
+
+

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "V100000000",
+        "data_id": "D1000000",
+        "view_url": "http://localhost:5173/dashboard?starttime=0.001043405531473086&endtime=0.0010466806152912144&page=0&filter=L1V&page=0",
+        "view_url_func": "/dashboard?starttime=0.001043405531473086&endtime=0.0010466806152912144&page=0&filter=L1V&page=0",
+        "view_url_params": {"starttime": "0.001043405531473086", "endtime": "0.0010466806152912144", "filter": "L1V", "page": "0"}
+    },
+    {
+        "id": "V100000001",
+        "data_id": "D1000000",
+        "view_url": "http://localhost:5173/component?name=Driver&starttime=-0.00016223766291217985&endtime=0.0022373343210887143",
+        "view_url_func": "/component?name=Driver&starttime=-0.00016223766291217985&endtime=0.0022373343210887143",
+        "view_url_params": {"name": "Driver", "starttime": "-0.00016223766291217985", "endtime": "0.0022373343210887143"}
+    },
+    {
+        "id": "V100000002",
+        "data_id": "D1000000",
+        "view_url": "http://localhost:5173/component?name=GPU%5B1%5D.L2Cache%5B1%5D&starttime=0.000841560610955829&endtime=0.0008597617837937866",
+        "view_url_func": "/component?name=GPU%5B1%5D.L2Cache%5B1%5D&starttime=0.000841560610955829&endtime=0.0008597617837937866",
+        "view_url_params": {"name": "GPU%5B1%5D.L2Cache%5B1%5D", "starttime": "0.000841560610955829", "endtime": "0.0008597617837937866"}
+    },
+    {
+        "id": "V100000003",
+        "data_id": "D1000000",
+        "view_url": "http://localhost:5173/component?name=GPU%5B1%5D.SA%5B0%5D.L1VTLB%5B1%5D&starttime=0.002077760369191761&endtime=0.002084094886914808",
+        "view_url_func": "/component?name=GPU%5B1%5D.SA%5B0%5D.L1VTLB%5B1%5D&starttime=0.002077760369191761&endtime=0.002084094886914808",
+        "view_url_params": {"name": "GPU%5B1%5D.SA%5B0%5D.L1VTLB%5B1%5D", "starttime": "0.002077760369191761", "endtime": "0.002084094886914808"}
+    },
+    {
+        "id": "V100000004",
+        "data_id": "D1000000",
+        "view_url": "http://localhost:5173/task?id=6652298&starttime=0.0020759432167996392&endtime=0.002084357696929022",
+        "view_url_func": "/task?id=6652298&starttime=0.0020759432167996392&endtime=0.002084357696929022",
+        "view_url_params": {"id": "6652298", "starttime": "0.0020759432167996392", "endtime": "0.002084357696929022"}
+    }
+]

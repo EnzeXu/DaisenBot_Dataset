@@ -4,35 +4,35 @@
     "data_id": "D0200000",
     "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
     "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "0.00009192968014715456", "filter": "L1V", "page": "0"}
   },
   {
-    "id": "V020000000",
+    "id": "V020000001",
     "data_id": "D0200000",
-    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+    "view_url": "http://localhost:3001/component?name=Driver&starttime=-0.00001755340413995662&endtime=0.00010012578448733526",
+    "view_url_func": "/component?name=Driver&starttime=-0.00001755340413995662&endtime=0.00010012578448733526",
+    "view_url_params": {"name": "Driver", "starttime": "-0.00001755340413995662", "endtime": "0.00010012578448733526"}
   },
   {
-    "id": "V020000000",
+    "id": "V020000002",
     "data_id": "D0200000",
-    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+    "view_url": "http://localhost:3001/component?name=GPU%5B1%5D.L2Cache%5B2%5D&starttime=0.00008414802962025001&endtime=0.00008452140845361734",
+    "view_url_func": "/component?name=GPU%5B1%5D.L2Cache%5B2%5D&starttime=0.00008414802962025001&endtime=0.00008452140845361734",
+    "view_url_params": {"name": "GPU[1].L2Cache[2]", "starttime": "0.00008414802962025001", "endtime": "0.00008452140845361734"}
   },
   {
-    "id": "V020000000",
+    "id": "V020000003",
     "data_id": "D0200000",
-    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+    "view_url": "http://localhost:3001/component?name=GPU%5B1%5D.SA%5B6%5D.L1VTLB%5B0%5D&starttime=0.00008219494636345323&endtime=0.00009045383719148978",
+    "view_url_func": "/component?name=GPU%5B1%5D.SA%5B6%5D.L1VTLB%5B0%5D&starttime=0.00008219494636345323&endtime=0.00009045383719148978",
+    "view_url_params": {"name": "GPU[1].SA[6].L1VTLB[0]", "starttime": "0.00008219494636345323", "endtime": "0.00009045383719148978"}
   },
   {
-    "id": "V020000000",
+    "id": "V020000004",
     "data_id": "D0200000",
-    "view_url": "http://localhost:3001/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_func": "/dashboard?starttime=0.0000819235856192037&endtime=0.00009192968014715456&filter=L1V&page=0",
-    "view_url_params": {"starttime": "0.0000819235856192037", "endtime": "xxxxxx", "filter": "xxxx", "page": "xxxxxx"}
+    "view_url": "http://localhost:3001/task?id=135283&starttime=0.00008058571752745862&endtime=0.00008947121533878879",
+    "view_url_func": "/task?id=135283&starttime=0.00008058571752745862&endtime=0.00008947121533878879",
+    "view_url_params": {"id": "135283", "starttime": "0.00008058571752745862", "endtime": "0.00008947121533878879"}
   }
 ]
 

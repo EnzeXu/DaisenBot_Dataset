@@ -1,0 +1,37 @@
+[
+    {
+        "id": "V170000000",
+        "data_id": "D1700000",
+        "view_url": "http://localhost:5173/dashboard?starttime=0.00013571636072866414&endtime=0.0001629959787745698&filter=L1V&page=0",
+        "view_url_func": "/dashboard?starttime=0.00013571636072866414&endtime=0.0001629959787745698&filter=L1V&page=0",
+        "view_url_params": {"starttime": "0.00013571636072866414", "endtime": "0.0001629959787745698", "filter": "L1V", "page": "0"}
+    },
+    {
+        "id": "V170000001",
+        "data_id": "D1700000",
+        "view_url": "http://localhost:5173/component?name=Driver&starttime=-0.000011585530910961439&endtime=0.00018579835482670186",
+        "view_url_func": "/component?name=Driver&starttime=-0.000011585530910961439&endtime=0.00018579835482670186",
+        "view_url_params": {"name": "Driver", "starttime": "-0.000011585530910961439", "endtime": "0.00018579835482670186"}
+    },
+    {
+        "id": "V170000002",
+        "data_id": "D1700000",
+        "view_url": "http://localhost:5173/component?name=GPU%5B1%5D.L2Cache%5B1%5D&starttime=0.0001390675191691208&endtime=0.00014283772339804943",
+        "view_url_func": "/component?name=GPU%5B1%5D.L2Cache%5B1%5D&starttime=0.0001390675191691208&endtime=0.00014283772339804943",
+        "view_url_params": {"name": "GPU%5B1%5D.L2Cache%5B1%5D", "starttime": "0.0001390675191691208", "endtime": "0.00014283772339804943"}
+    },
+    {
+        "id": "V170000003",
+        "data_id": "D1700000",
+        "view_url": "http://localhost:5173/component?name=GPU%5B1%5D.DRAM%5B1%5D&starttime=0.0001386736981621876&endtime=0.00014197790061271838",
+        "view_url_func": "/component?name=GPU%5B1%5D.DRAM%5B1%5D&starttime=0.0001386736981621876&endtime=0.00014197790061271838",
+        "view_url_params": {"name": "GPU%5B1%5D.DRAM%5B1%5D", "starttime": "0.0001386736981621876", "endtime": "0.00014197790061271838"}
+    },
+    {
+        "id": "V170000004",
+        "data_id": "D1700000",
+        "view_url": "http://localhost:5173/task?id=283082&starttime=0.00013247409499327634&endtime=0.00016458236715802225",
+        "view_url_func": "/task?id=283082&starttime=0.00013247409499327634&endtime=0.00016458236715802225",
+        "view_url_params": {"id": "283082", "starttime": "0.00013247409499327634", "endtime": "0.00016458236715802225"}
+    }
+]

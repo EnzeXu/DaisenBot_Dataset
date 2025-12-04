@@ -1,0 +1,39 @@
+[
+  {
+    "id": "V060000000",
+    "data_id": "D0600000",
+    "view_url": "http://localhost:3001/dashboard?starttime=0.00016048501391406373&endtime=0.0008849740571802979&filter=L1V&page=0",
+    "view_url_func": "/dashboard?starttime=0.00016048501391406373&endtime=0.0008849740571802979&filter=L1V&page=0",
+    "view_url_params": {"starttime": "0.00016048501391406373", "endtime": "0.0008849740571802979", "filter": "L1V", "page": "0"}
+  },
+  {
+    "id": "V060000001",
+    "data_id": "D0600000",
+    "view_url": "http://localhost:3001/component?name=Driver&starttime=-0.00011701217509894137&endtime=0.0009799053516303712",
+    "view_url_func": "/component?name=Driver&starttime=-0.00011701217509894137&endtime=0.0009799053516303712",
+    "view_url_params": {"name": "Driver", "starttime": "-0.00011701217509894137", "endtime": "0.0009799053516303712"}
+  },
+  {
+    "id": "V060000002",
+    "data_id": "D0600000",
+    "view_url": "http://localhost:3001/component?name=GPU%5B1%5D.L2Cache%5B5%5D&starttime=0.0004106355288331586&endtime=0.0004112235597616018",
+    "view_url_func": "/component?name=GPU%5B1%5D.L2Cache%5B5%5D&starttime=0.0004106355288331586&endtime=0.0004112235597616018",
+    "view_url_params": {"name": "GPU[1].L2Cache[5]", "starttime": "0.0004106355288331586", "endtime": "0.0004112235597616018"}
+  },
+  {
+    "id": "V060000003",
+    "data_id": "D0600000",
+    "view_url": "http://localhost:3001/component?name=GPU%5B1%5D.SA%5B3%5D.L1VTLB%5B0%5D&starttime=0.00010756068271084197&endtime=0.00011250362113167404",
+    "view_url_func": "/component?name=GPU%5B1%5D.SA%5B3%5D.L1VTLB%5B0%5D&starttime=0.00010756068271084197&endtime=0.00011250362113167404",
+    "view_url_params": {"name": "GPU[1].SA[3].L1VTLB[0]", "starttime": "0.00010756068271084197", "endtime": "0.00011250362113167404"}
+  },
+  {
+    "id": "V060000004",
+    "data_id": "D0600000",
+    "view_url": "http://localhost:3001/task?id=1608035&starttime=0.00035777798026396086&endtime=0.00036306243779730805",
+    "view_url_func": "/task?id=1608035&starttime=0.00035777798026396086&endtime=0.00036306243779730805",
+    "view_url_params": {"id": "1608035", "starttime": "0.00035777798026396086", "endtime": "0.00036306243779730805"}
+  }
+]
+
+
