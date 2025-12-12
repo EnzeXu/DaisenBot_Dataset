@@ -1,0 +1,72 @@
+[
+    {
+        "id": "Q02000000001",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "Are all the configurations of the components the same for all components?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000002",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "How do we get the 16 components's dashboard from the simulation",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000101",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many components are displayed in this page?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000102",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What are the colored bars presenting? What is the dynamic curve below presenting? How are they connected?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000201",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many colored bars are there in total in this component view?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000202",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why do we have mulytiple colored bars in this component view?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000301",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many req_in are there in total in this component view?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000302",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "How do I input the trace to generate this visulation page?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000401",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many types of tasks/events are there in this view?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q02000000402",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What does the parent task / current task / subtasks mean here?",
+        "options": ["", "", "", ""]
+    }
+]

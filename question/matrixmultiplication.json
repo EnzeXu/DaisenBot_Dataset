@@ -1,0 +1,72 @@
+[
+    {
+        "id": "Q14000000001",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many cache related components are displayed in this page?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000002",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why some GPU[1].SA[0].L1VCache[?].Local curves are plainly flat?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000101",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "What does the curve below mean?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000102",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What do these colored blocks represent?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000201",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many req_out events are there in the page?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000202",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "It seems the component pattern at request peak look similar, while the request incoming rate (the curve) looks different. Why?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000301",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many req_out blocks are there between 420us and 440us?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000302",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why in the middle of the page there are two extra lines in the timeline? And why there is a special peak at 430us? What happended here?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000401",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many req_in events are there in the page?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q14000000402",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "How long is the overlapping time period between the current task and its parent task?",
+        "options": ["", "", "", ""]
+    }
+]

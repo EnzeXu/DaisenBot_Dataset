@@ -12,5 +12,8 @@ akita_sim*
 
 *_backup/
 
+questions_summary.csv
+test.py
+
 .credentials.json
 .token.json
