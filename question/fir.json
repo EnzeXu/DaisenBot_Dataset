@@ -4,7 +4,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "Are all the configurations of the components the same for all components?",
-        "options": ["", "", "", ""]
+        "options": ["Yes", "No"]
     },
     {
         "id": "Q02000000002",
@@ -18,7 +18,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many components are displayed in this page?",
-        "options": ["", "", "", ""]
+        "options": ["16", "17", "18", "19"]
     },
     {
         "id": "Q02000000102",
@@ -32,7 +32,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many colored bars are there in total in this component view?",
-        "options": ["", "", "", ""]
+        "options": ["4", "5", "6", "7"]
     },
     {
         "id": "Q02000000202",
