@@ -1,0 +1,68 @@
+[
+    {
+        "id": "Q09000000001",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "Is each component in the visualization mapped to a physical GPU component?",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": "Q09000000002",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What the purple blocks represent?"
+    },
+    {
+        "id": "Q09000000101",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What the block in the blue box represent?"
+    },
+    {
+        "id": "Q09000000102",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "What the gap between two blocks indicate?",
+        "options": ["Idle time", "Computation time", "Memory access time", "Latency"]
+    },
+    {
+        "id": "Q09000000201",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "What does each color typically represent in the colored bars?",
+        "options": ["Different task types", "Different memory levels", "Different kernels", "Different components"]
+    },
+    {
+        "id": "Q09000000202",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "How would you explain the meaning of color of each bar?"
+    },
+    {
+        "id": "Q09000000301",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "Which metric is most likely represented by the dynamic curve?",
+        "options": ["Throughput", "Latency", "Occupancy", "Energy consumption"]
+    },
+    {
+        "id": "Q09000000302",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "Are req_in signals visualized independently for each component?",
+        "options": ["Yes", "No"]
+    },
+    {
+        "id": "Q09000000401",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many wavefronts are there in the page?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q09000000402",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What key information must be present in the trace to support visualization?"
+    }
+]

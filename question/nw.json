@@ -1,0 +1,67 @@
+[
+    {
+        "id": "Q03000000001",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "What is the current search filter?",
+        "options": ["L1V", "DRAM", "Driver", "ROB"]
+    },
+    {
+        "id": "Q03000000002",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why does the blue axis for GPU[1].SA[0].L1VCache[1] have a much larger plateau?"
+    },
+    {
+        "id": "Q03000000101",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many blue launch kernel command events are there?",
+        "options": ["5", "16", "9", "20"]
+    },
+    {
+        "id": "Q03000000102",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why are the green memory copy H2D events divided into groups of three?"
+    },
+    {
+        "id": "Q03000000201",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many thin req_in memory write events are there in the second row?",
+        "options": ["2", "0", "10", "20"]
+    },
+    {
+        "id": "Q03000000202",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why is there such a big difference between length of time for req_in memory write events?"
+    },
+    {
+        "id": "Q03000000301",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many memory read events are there in total?",
+        "options": ["16", "8", "34", "24"]
+    },
+    {
+        "id": "Q03000000302",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why is the distribution 2, 8, 8, 8, 6, 2? Why are the last two columns not part of the same column?"
+    },
+    {
+        "id": "Q03000000401",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many wavefronts are there in the page?",
+        "options": ["1", "2", "3", "4"]
+    },
+    {
+        "id": "Q03000000402",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why are the subtasks so detailed?"
+    }
+]

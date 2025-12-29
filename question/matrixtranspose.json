@@ -1,0 +1,67 @@
+[
+    {
+        "id": "Q16000000001",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many red peeks are there in the GPU[1].SA[0].L1VROB[0] dashboard?",
+        "options": ["1", "2", "3", "4"]
+    },
+    {
+        "id": "Q16000000002",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why there is only one peek in the GPU[1].SA[0].L1VROB[0] dashboard?"
+    },
+    {
+        "id": "Q16000000101",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How long does the LaunchKernel task take in the page?",
+        "options": ["2us", "4us", "8us", "16us"]
+    },
+    {
+        "id": "Q16000000102",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What can we learn from the two blue peeks in the curve below?"
+    },
+    {
+        "id": "Q16000000201",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many different colors of blocks are there in the page?",
+        "options": ["2", "3", "4", "5"]
+    },
+    {
+        "id": "Q16000000202",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why there is a large gap before the last wave of requests? All requests before the wave are continuous."
+    },
+    {
+        "id": "Q16000000301",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "When does the highest peak in the curve below occur?",
+        "options": ["105.5us", "108.5us", "111.5us", "114.5us"]
+    },
+    {
+        "id": "Q16000000302",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why some req_in blocks contain a req_out block while some do not?"
+    },
+    {
+        "id": "Q16000000401",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many green blocks are there in the page?",
+        "options": ["2", "3", "4", "5"]
+    },
+    {
+        "id": "Q16000000402",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why the later 3 green blocks take more time than the first one?"
+    }
+]

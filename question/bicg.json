@@ -4,69 +4,69 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "What is the time period of all dash boards shown?",
-        "options": ["", "", "", ""]
+        "options": ["0-2ms", "0-4ms", "2-4ms", "0-5ms"]
     },
     {
         "id": "Q10000000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What behavior of the system can be reflected from the GPU[1].SA[0].L1VAddrTrans[0] and GPU[1].SA[0].L1VROB[0] components?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q10000000101",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many driver.MemCopy events in total are there in the page?",
-        "options": ["", "", "", ""]
+        "question": "How many driver.MemCopy events in total (including 2 colors) are there in the page?",
+        "options": ["5", "8", "11", "14"]
     },
     {
         "id": "Q10000000102",
         "question_type": "open_ended",
         "question_class": "explanation",
-        "question": "Why the Driver Command-*driver.LaunchKernelCommand events are split into two parts? one large and one small?",
-        "options": ["", "", "", ""]
+        "question": "Why the driver.Mem events are split into two groups? one at the beginning and one at the end?",
+        "options": []
     },
     {
         "id": "Q10000000201",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many peaks are there in the time period shown in the page?",
-        "options": ["", "", "", ""]
+        "question": "How many peaks are there in the time period shown in the curve below?",
+        "options": ["1", "2", "3", "4"]
     },
     {
         "id": "Q10000000202",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why there are always 4-5 continuous large mem.readreq events?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q10000000301",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How long does the first column of the events take?",
-        "options": ["", "", "", ""]
+        "options": ["200ns", "700ns", "1200ns", "1700ns"]
     },
     {
         "id": "Q10000000302",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What behavior of the system can be reflected from the first column of the events?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q10000000401",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many wavefronts are there in the page?",
-        "options": ["", "", "", ""]
+        "options": ["1", "2", "3", "4"]
     },
     {
         "id": "Q10000000402",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "I know this simulation is from AMD GPUs. Which component is similar to WFPool in NVIDIA GPUs?",
-        "options": ["", "", "", ""]
+        "options": []
     }
 ]

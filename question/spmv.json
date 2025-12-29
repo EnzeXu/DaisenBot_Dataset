@@ -1,0 +1,65 @@
+[
+    {
+        "id": "Q17000000001",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How would you use visualization to validate a new GPU design idea?"
+    },
+    {
+        "id": "Q17000000002",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What do these colored blocks represent?"
+    },
+    {
+        "id": "Q17000000101",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why is it important to visualize subtasks separately from parent tasks?"
+    },
+    {
+        "id": "Q17000000102",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Which aspect of GPU behavior is hardest to understand without visualization?"
+    },
+    {
+        "id": "Q17000000201",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "Which parameter most directly affects the number of components shown?",
+        "options": ["Number of CUs", "Clock frequency", "Cache size", "Trace length"]
+    },
+    {
+        "id": "Q17000000202",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "How can overlapping events impact GPU performance interpretation?"
+    },
+    {
+        "id": "Q17000000301",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "When would you switch from overview view to component view?",
+        "options": ["", "", "", ""]
+    },
+    {
+        "id": "Q17000000302",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "How would you use visualization to validate a new GPU design idea?"
+    },
+    {
+        "id": "Q17000000401",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many wavefronts are there in the page?"
+    },
+    {
+        "id": "Q17000000402",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "Which metric is best for comparing load balance across components?",
+        "options": ["Utilization", "Latency", "Power", "Address range"]
+    }
+]

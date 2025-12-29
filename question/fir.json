@@ -10,8 +10,8 @@
         "id": "Q02000000002",
         "question_type": "open_ended",
         "question_class": "explanation",
-        "question": "How do we get the 16 components's dashboard from the simulation",
-        "options": ["", "", "", ""]
+        "question": "How does Daisen generate the 16 components's dashboard from the simulation?",
+        "options": []
     },
     {
         "id": "Q02000000101",

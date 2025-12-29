@@ -1,0 +1,67 @@
+[
+    {
+        "id": "Q06000000001",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many graphs have no activity?",
+        "options": ["1", "2", "3", "4"]
+    },
+    {
+        "id": "Q06000000002",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why do the blue lines line up very closely with the red lines?"
+    },
+    {
+        "id": "Q06000000101",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many driver launch kernal events are there?",
+        "options": ["16", "17", "12", "20"]
+    },
+    {
+        "id": "Q06000000102",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why are the green memory copy events much longer than launch kernel events?"
+    },
+    {
+        "id": "Q06000000201",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many req_out memory read events are there?",
+        "options": ["2", "3", "5", "0"]
+    },
+    {
+        "id": "Q06000000202",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Can a similar distribution of events be seen with any other components?"
+    },
+    {
+        "id": "Q06000000301",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many events req_in and req_out events are NOT overlapping?",
+        "options": ["2", "4", "5", "1"]
+    },
+    {
+        "id": "Q06000000302",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why are some of the req_in and req_out events overlapping but not others?"
+    },
+    {
+        "id": "Q06000000401",
+        "question_type": "multiple_choice",
+        "question_class": "explanation",
+        "question": "How many wavefronts are there in the page?",
+        "options": ["0", "1", "2", "3"]
+    },
+    {
+        "id": "Q06000000402",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "Why are the inst-scalar events so long?"
+    }
+]
