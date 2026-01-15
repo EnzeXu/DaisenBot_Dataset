@@ -1,0 +1,62 @@
+[
+    {
+        "id": "L070000000010",
+        "question_id": "Q07000000001",
+        "answer_source": "human",
+        "answer": "[A] Average Request Latency"
+    },
+    {
+        "id": "L070000000020",
+        "question_id": "Q07000000002",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L070000001010",
+        "question_id": "Q07000000101",
+        "answer_source": "human",
+        "answer": "[D] 4"
+    },
+    {
+        "id": "L070000001020",
+        "question_id": "Q07000000102",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L070000002010",
+        "question_id": "Q07000000201",
+        "answer_source": "human",
+        "answer": "[C] 18"
+    },
+    {
+        "id": "L070000002020",
+        "question_id": "Q07000000202",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L070000003010",
+        "question_id": "Q07000000301",
+        "answer_source": "human",
+        "answer": "[C] 7ns"
+    },
+    {
+        "id": "L070000003020",
+        "question_id": "Q07000000302",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L070000004010",
+        "question_id": "Q07000000401",
+        "answer_source": "human",
+        "answer": "[B] 8"
+    },
+    {
+        "id": "L070000004020",
+        "question_id": "Q07000000402",
+        "answer_source": "human",
+        "answer": "TODO"
+    }
+]

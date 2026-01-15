@@ -1,13 +1,16 @@
 [
     {
         "id": "Q02000000001",
+        "view_id": "V020000000",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "Are all the configurations of the components the same for all components?",
-        "options": ["Yes", "No"]
+        "question": "How many components are displayed in this page?",
+        "options": ["16", "17", "18", "19"],
+        "attachment": null
     },
     {
         "id": "Q02000000002",
+        "view_id": "V020000000",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How does Daisen generate the 16 components's dashboard from the simulation?",
@@ -15,13 +18,16 @@
     },
     {
         "id": "Q02000000101",
+        "view_id": "V020000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many components are displayed in this page?",
-        "options": ["16", "17", "18", "19"]
+        "question": "What does the pink event block represent?",
+        "options": ["Driver Command", "Simulation", "req_in", "req_out"],
+        "attachment": null
     },
     {
         "id": "Q02000000102",
+        "view_id": "V020000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What are the colored bars presenting? What is the dynamic curve below presenting? How are they connected?",
@@ -29,13 +35,16 @@
     },
     {
         "id": "Q02000000201",
+        "view_id": "V020000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many colored bars are there in total in this component view?",
-        "options": ["4", "5", "6", "7"]
+        "question": "How long does the lefttop most req_in task take?",
+        "options": ["77ns", "117ns", "157ns", "197ns"],
+        "attachment": null
     },
     {
         "id": "Q02000000202",
+        "view_id": "V020000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why do we have mulytiple colored bars in this component view?",
@@ -43,13 +52,16 @@
     },
     {
         "id": "Q02000000301",
+        "view_id": "V020000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many req_in are there in total in this component view?",
-        "options": ["", "", "", ""]
+        "options": ["28", "32", "60", "80"],
+        "attachment": null
     },
     {
         "id": "Q02000000302",
+        "view_id": "V020000003",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How do I input the trace to generate this visulation page?",
@@ -57,13 +69,16 @@
     },
     {
         "id": "Q02000000401",
+        "view_id": "V020000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many types of tasks/events are there in this view?",
-        "options": ["", "", "", ""]
+        "options": ["4", "6", "8", "10"],
+        "attachment": null
     },
     {
         "id": "Q02000000402",
+        "view_id": "V020000004",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What does the parent task / current task / subtasks mean here?",

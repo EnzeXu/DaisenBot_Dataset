@@ -1,6 +1,7 @@
 [
     {
         "id": "Q09000000001",
+        "view_id": "V090000000",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "Is each component in the visualization mapped to a physical GPU component?",
@@ -8,18 +9,21 @@
     },
     {
         "id": "Q09000000002",
+        "view_id": "V090000000",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What the purple blocks represent?"
     },
     {
         "id": "Q09000000101",
+        "view_id": "V090000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What the block in the blue box represent?"
     },
     {
         "id": "Q09000000102",
+        "view_id": "V090000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "What the gap between two blocks indicate?",
@@ -27,6 +31,7 @@
     },
     {
         "id": "Q09000000201",
+        "view_id": "V090000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "What does each color typically represent in the colored bars?",
@@ -34,12 +39,14 @@
     },
     {
         "id": "Q09000000202",
+        "view_id": "V090000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How would you explain the meaning of color of each bar?"
     },
     {
         "id": "Q09000000301",
+        "view_id": "V090000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "Which metric is most likely represented by the dynamic curve?",
@@ -47,6 +54,7 @@
     },
     {
         "id": "Q09000000302",
+        "view_id": "V090000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "Are req_in signals visualized independently for each component?",
@@ -54,6 +62,7 @@
     },
     {
         "id": "Q09000000401",
+        "view_id": "V090000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many wavefronts are there in the page?",
@@ -61,6 +70,7 @@
     },
     {
         "id": "Q09000000402",
+        "view_id": "V090000004",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What key information must be present in the trace to support visualization?"

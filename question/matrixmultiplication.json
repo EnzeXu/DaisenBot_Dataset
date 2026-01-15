@@ -1,13 +1,16 @@
 [
     {
         "id": "Q14000000001",
+        "view_id": "V140000000",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many cache related components are displayed in this page?",
-        "options": ["", "", "", ""]
+        "question": "How many cache related components (contains keyword cache) are displayed in this page?",
+        "options": ["2", "5", "8", "11"],
+        "attachment": null
     },
     {
         "id": "Q14000000002",
+        "view_id": "V140000000",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why some GPU[1].SA[0].L1VCache[?].Local curves are plainly flat?",
@@ -15,13 +18,16 @@
     },
     {
         "id": "Q14000000101",
+        "view_id": "V140000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "What does the curve below mean?",
-        "options": ["", "", "", ""]
+        "options": ["Number of concurrent tasks in this component", "Incoming Request Rate", "Request Complete Rate", "Average Request Latency"],
+        "attachment": null
     },
     {
         "id": "Q14000000102",
+        "view_id": "V140000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What do these colored blocks represent?",
@@ -29,13 +35,16 @@
     },
     {
         "id": "Q14000000201",
+        "view_id": "V140000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many req_out events are there in the page?",
-        "options": ["", "", "", ""]
+        "options": ["4", "8", "16", "32"],
+        "attachment": null
     },
     {
         "id": "Q14000000202",
+        "view_id": "V140000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "It seems the component pattern at request peak look similar, while the request incoming rate (the curve) looks different. Why?",
@@ -43,13 +52,16 @@
     },
     {
         "id": "Q14000000301",
+        "view_id": "V140000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many req_out blocks are there between 420us and 440us?",
-        "options": ["", "", "", ""]
+        "options": ["22", "42", "62", "82"],
+        "attachment": null
     },
     {
         "id": "Q14000000302",
+        "view_id": "V140000003",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why in the middle of the page there are two extra lines in the timeline? And why there is a special peak at 430us? What happended here?",
@@ -57,13 +69,16 @@
     },
     {
         "id": "Q14000000401",
+        "view_id": "V140000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many req_in events are there in the page?",
-        "options": ["", "", "", ""]
+        "options": ["1", "2", "4", "8"],
+        "attachment": null
     },
     {
         "id": "Q14000000402",
+        "view_id": "V140000004",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How long is the overlapping time period between the current task and its parent task?",

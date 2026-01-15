@@ -1,0 +1,62 @@
+[
+    {
+        "id": "L170000000010",
+        "question_id": "Q17000000001",
+        "answer_source": "human",
+        "answer": "[]"
+    },
+    {
+        "id": "L170000000020",
+        "question_id": "Q17000000002",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L170000001010",
+        "question_id": "Q17000000101",
+        "answer_source": "human",
+        "answer": "[]"
+    },
+    {
+        "id": "L170000001020",
+        "question_id": "Q17000000102",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L170000002010",
+        "question_id": "Q17000000201",
+        "answer_source": "human",
+        "answer": "[]"
+    },
+    {
+        "id": "L170000002020",
+        "question_id": "Q17000000202",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L170000003010",
+        "question_id": "Q17000000301",
+        "answer_source": "human",
+        "answer": "[]"
+    },
+    {
+        "id": "L170000003020",
+        "question_id": "Q17000000302",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L170000004010",
+        "question_id": "Q17000000401",
+        "answer_source": "human",
+        "answer": "[]"
+    },
+    {
+        "id": "L170000004020",
+        "question_id": "Q17000000402",
+        "answer_source": "human",
+        "answer": "TODO"
+    }
+]

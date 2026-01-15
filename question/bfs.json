@@ -1,65 +1,80 @@
 [
     {
         "id": "Q07000000001",
+        "view_id": "V070000000",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "What does the blue y axis mean in the dashboards?",
-        "options": ["Average Request Latency", "Incoming Request Rate", "Buffer Pressure", "Pending Request Out"]
+        "options": ["Average Request Latency", "Incoming Request Rate", "Buffer Pressure", "Pending Request Out"],
+        "attachment": null
     },
     {
         "id": "Q07000000002",
+        "view_id": "V070000000",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why the blue curves in the dashboards have less peaks than the red ones?"
     },
     {
         "id": "Q07000000101",
+        "view_id": "V070000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many Launch Kernel tasks are there in the view?",
-        "options": ["1", "2", "3", "4"]
+        "question": "How many Driver's Launch Kernel tasks are there in the view?",
+        "options": ["1", "2", "3", "4"],
+        "attachment": null
     },
     {
         "id": "Q07000000102",
+        "view_id": "V070000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why there is always a MemCopy task right after a Launch Kernel task?"
     },
     {
         "id": "Q07000000201",
+        "view_id": "V070000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many req_in events are there in total in this component view?",
-        "options": ["14", "16", "18", "20"]
+        "options": ["14", "16", "18", "20"],
+        "attachment": null
     },
     {
         "id": "Q07000000202",
+        "view_id": "V070000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Can you explain why there is always a green block (req_out) in side each brown block (req_in)?"
     },
     {
         "id": "Q07000000301",
+        "view_id": "V070000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How long does the req_out task take in the view?",
-        "options": ["1ns", "4ns", "7ns", "10ns"]
+        "options": ["1ns", "4ns", "7ns", "10ns"],
+        "attachment": null
     },
     {
         "id": "Q07000000302",
+        "view_id": "V070000003",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why the brown block below starts later but ends almost the same time as the previous one? Why it does not contain a green block (req_out)?"
     },
     {
         "id": "Q07000000401",
+        "view_id": "V070000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many types of tasks are there in this view?",
-        "options": ["7", "8", "9", "10"]
+        "options": ["7", "8", "9", "10"],
+        "attachment": null
     },
     {
         "id": "Q07000000402",
+        "view_id": "V070000004",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why there are tasks in different lines in the view? What does that mean?"

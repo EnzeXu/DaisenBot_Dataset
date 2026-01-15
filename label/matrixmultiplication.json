@@ -1,0 +1,62 @@
+[
+    {
+        "id": "L140000000010",
+        "question_id": "Q14000000001",
+        "answer_source": "human",
+        "answer": "[C] 8"
+    },
+    {
+        "id": "L140000000020",
+        "question_id": "Q14000000002",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L140000001010",
+        "question_id": "Q14000000101",
+        "answer_source": "human",
+        "answer": "[A] Number of concurrent tasks in this component"
+    },
+    {
+        "id": "L140000001020",
+        "question_id": "Q14000000102",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L140000002010",
+        "question_id": "Q14000000201",
+        "answer_source": "human",
+        "answer": "[B] 8"
+    },
+    {
+        "id": "L140000002020",
+        "question_id": "Q14000000202",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L140000003010",
+        "question_id": "Q14000000301",
+        "answer_source": "human",
+        "answer": "[C] 62"
+    },
+    {
+        "id": "L140000003020",
+        "question_id": "Q14000000302",
+        "answer_source": "human",
+        "answer": "TODO"
+    },
+    {
+        "id": "L140000004010",
+        "question_id": "Q14000000401",
+        "answer_source": "human",
+        "answer": "[D] 8"
+    },
+    {
+        "id": "L140000004020",
+        "question_id": "Q14000000402",
+        "answer_source": "human",
+        "answer": "TODO"
+    }
+]

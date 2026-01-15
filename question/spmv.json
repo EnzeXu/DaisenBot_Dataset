@@ -1,30 +1,36 @@
 [
     {
         "id": "Q17000000001",
+        "view_id": "V170000000",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How would you use visualization to validate a new GPU design idea?"
     },
     {
         "id": "Q17000000002",
+        "view_id": "V170000000",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What do these colored blocks represent?"
     },
     {
         "id": "Q17000000101",
+        "view_id": "V170000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why is it important to visualize subtasks separately from parent tasks?"
     },
     {
         "id": "Q17000000102",
+        "data_id": "D1700000",
+        "view_id": "V170000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Which aspect of GPU behavior is hardest to understand without visualization?"
     },
     {
         "id": "Q17000000201",
+        "view_id": "V170000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "Which parameter most directly affects the number of components shown?",
@@ -32,12 +38,14 @@
     },
     {
         "id": "Q17000000202",
+        "view_id": "V170000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How can overlapping events impact GPU performance interpretation?"
     },
     {
         "id": "Q17000000301",
+        "view_id": "V170000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "When would you switch from overview view to component view?",
@@ -45,18 +53,21 @@
     },
     {
         "id": "Q17000000302",
+        "view_id": "V170000003",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How would you use visualization to validate a new GPU design idea?"
     },
     {
         "id": "Q17000000401",
+        "view_id": "V170000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many wavefronts are there in the page?"
     },
     {
         "id": "Q17000000402",
+        "view_id": "V170000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "Which metric is best for comparing load balance across components?",

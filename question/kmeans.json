@@ -1,69 +1,84 @@
 [
     {
-        "id": "Q02000000001",
+        "id": "Q11000000001",
+        "view_id": "V110000000",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How long does the simulation take for the current page?",
-        "options": ["", "", "", ""]
+        "options": ["100ns", "600ns", "1100ns", "1600ns"],
+        "attachment": null
     },
     {
-        "id": "Q02000000002",
+        "id": "Q11000000002",
+        "view_id": "V110000000",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What does the blue/red lines representing here?",
         "options": ["", "", "", ""]
     },
     {
-        "id": "Q02000000101",
+        "id": "Q11000000101",
+        "view_id": "V110000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "What does the purple blocks represent?",
-        "options": ["", "", "", ""]
+        "question": "What does the light purple blocks represent?",
+        "options": ["driver.LaunchKernel", "driver.MemCopy", "protocol.FlushReq", "protocol.LaunchKernelReq"],
+        "attachment": null
     },
     {
-        "id": "Q02000000102",
+        "id": "Q11000000102",
+        "view_id": "V110000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "For this simulation, what is the bottleneck component?",
         "options": ["", "", "", ""]
     },
     {
-        "id": "Q02000000201",
+        "id": "Q11000000201",
+        "view_id": "V110000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "What do the brown blocks refer to?",
-        "options": ["", "", "", ""]
+        "options": ["req_in", "req_out", "simulation", "memcopy"],
+        "attachment": null
     },
     {
-        "id": "Q02000000202",
+        "id": "Q11000000202",
+        "view_id": "V110000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What do the bars get thinner after a period of time",
         "options": ["", "", "", ""]
     },
     {
-        "id": "Q02000000301",
+        "id": "Q11000000301",
+        "view_id": "V110000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many req_in events are there in the page?",
-        "options": ["", "", "", ""]
+        "options": ["28", "48", "68", "88"],
+        "attachment": null
     },
     {
-        "id": "Q02000000302",
+        "id": "Q11000000302",
+        "view_id": "V110000003",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How do I understand from the visualization if the simulation is stuck or making progress?",
         "options": ["", "", "", ""]
     },
     {
-        "id": "Q02000000401",
+        "id": "Q11000000401",
+        "view_id": "V110000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many types of sub tasks do the surrent task have",
-        "options": ["", "", "", ""]
+        "question": "How many types of sub tasks do the current task have",
+        "options": ["4", "6", "8", "10"],
+        "attachment": null
     },
     {
-        "id": "Q02000000402",
+        "id": "Q11000000402",
+        "view_id": "V110000004",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why the highest peak exists in the very in the very beginning of the simulation?",

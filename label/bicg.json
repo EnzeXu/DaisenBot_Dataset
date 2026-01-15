@@ -1,0 +1,62 @@
+[
+    {
+        "id": "L100000000010",
+        "question_id": "Q10000000001",
+        "answer_source": "human",
+        "answer": "[A] 0-2ms"
+    },
+    {
+        "id": "L100000000020",
+        "question_id": "Q10000000002",
+        "answer_source": "human",
+        "answer": "GPU[1].SA[0].L1VAddrTrans[0] and GPU[1].SA[0].L1VROB[0] components have similar request patterns, indicating they are likely involved in related operations, address translation and reorder buffer."
+    },
+    {
+        "id": "L100000001010",
+        "question_id": "Q10000000101",
+        "answer_source": "human",
+        "answer": "[C] 11"
+    },
+    {
+        "id": "L100000001020",
+        "question_id": "Q10000000102",
+        "answer_source": "human",
+        "answer": "They are two distinct phases of memory operations during the simulation: initial memory setup (data transfer from the host to the GPU (MemCopyH2D) before the kernel execution) and final memory operations (transfer results back to the host (MemCopyD2H) and deallocate or clean up memory resources)"
+    },
+    {
+        "id": "L100000002010",
+        "question_id": "Q10000000201",
+        "answer_source": "human",
+        "answer": "[B] 2"
+    },
+    {
+        "id": "L100000002020",
+        "question_id": "Q10000000202",
+        "answer_source": "human",
+        "answer": "In the component view, a new row starts whenever an event overlaps in time with events in previous rows. In this case, 17 mem.ReadReq requests arrive in a burst, but the L2 cache can issue at most 4 requests (req_out) at the same time. As a result, the requests are serialized in groups of about 4 or 5, which appear as continuous large mem.ReadReq events in each row. Some later requests complete instantly due to TLB hits, so they do not generate new req_out events and return immediately."
+    },
+    {
+        "id": "L100000003010",
+        "question_id": "Q10000000301",
+        "answer_source": "human",
+        "answer": "[B] 700ns"
+    },
+    {
+        "id": "L100000003020",
+        "question_id": "Q10000000302",
+        "answer_source": "human",
+        "answer": "The first column shows that many vm.TranslationReq requests arrive at the L1VTLB simultaneously, but only the first request produces a req_out. This indicates that these requests are contending for the same TLB entry. The first request experiences a TLB miss and triggers a page table walk, while all subsequent requests must wait until the TLB entry is filled. As a result, the first request has a long latency (around 700 ns). Once the TLB entry is installed, the remaining requests in the same column complete immediately, reflecting shared dependency on the same translation result."
+    },
+    {
+        "id": "L100000004010",
+        "question_id": "Q10000000401",
+        "answer_source": "human",
+        "answer": "[D] 4"
+    },
+    {
+        "id": "L100000004020",
+        "question_id": "Q10000000402",
+        "answer_source": "human",
+        "answer": "In NVIDIA GPUs, a similar component would be the Warp Scheduler, which schedules warps for execution on the Streaming Multiprocessors (SMs)."
+    }
+]

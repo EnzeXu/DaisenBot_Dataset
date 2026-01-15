@@ -1,6 +1,7 @@
 [
     {
         "id": "Q16000000001",
+        "view_id": "V160000000",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many red peeks are there in the GPU[1].SA[0].L1VROB[0] dashboard?",
@@ -8,12 +9,14 @@
     },
     {
         "id": "Q16000000002",
+        "view_id": "V160000000",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why there is only one peek in the GPU[1].SA[0].L1VROB[0] dashboard?"
     },
     {
         "id": "Q16000000101",
+        "view_id": "V160000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How long does the LaunchKernel task take in the page?",
@@ -21,12 +24,14 @@
     },
     {
         "id": "Q16000000102",
+        "view_id": "V160000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What can we learn from the two blue peeks in the curve below?"
     },
     {
         "id": "Q16000000201",
+        "view_id": "V160000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many different colors of blocks are there in the page?",
@@ -34,12 +39,14 @@
     },
     {
         "id": "Q16000000202",
+        "view_id": "V160000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why there is a large gap before the last wave of requests? All requests before the wave are continuous."
     },
     {
         "id": "Q16000000301",
+        "view_id": "V160000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "When does the highest peak in the curve below occur?",
@@ -47,12 +54,14 @@
     },
     {
         "id": "Q16000000302",
+        "view_id": "V160000003",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why some req_in blocks contain a req_out block while some do not?"
     },
     {
         "id": "Q16000000401",
+        "view_id": "V160000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many green blocks are there in the page?",
@@ -60,6 +69,7 @@
     },
     {
         "id": "Q16000000402",
+        "view_id": "V160000004",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why the later 3 green blocks take more time than the first one?"

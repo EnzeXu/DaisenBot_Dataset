@@ -1,6 +1,7 @@
 [
     {
         "id": "Q03000000001",
+        "view_id": "V030000000",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "What is the current search filter?",
@@ -8,12 +9,14 @@
     },
     {
         "id": "Q03000000002",
+        "view_id": "V030000000",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why does the blue axis for GPU[1].SA[0].L1VCache[1] have a much larger plateau?"
     },
     {
         "id": "Q03000000101",
+        "view_id": "V030000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many blue launch kernel command events are there?",
@@ -21,12 +24,14 @@
     },
     {
         "id": "Q03000000102",
+        "view_id": "V030000001",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why are the green memory copy H2D events divided into groups of three?"
     },
     {
         "id": "Q03000000201",
+        "view_id": "V030000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many thin req_in memory write events are there in the second row?",
@@ -34,12 +39,14 @@
     },
     {
         "id": "Q03000000202",
+        "view_id": "V030000002",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why is there such a big difference between length of time for req_in memory write events?"
     },
     {
         "id": "Q03000000301",
+        "view_id": "V030000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many memory read events are there in total?",
@@ -47,12 +54,14 @@
     },
     {
         "id": "Q03000000302",
+        "view_id": "V030000003",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why is the distribution 2, 8, 8, 8, 6, 2? Why are the last two columns not part of the same column?"
     },
     {
         "id": "Q03000000401",
+        "view_id": "V030000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many wavefronts are there in the page?",
@@ -60,6 +69,7 @@
     },
     {
         "id": "Q03000000402",
+        "view_id": "V030000004",
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why are the subtasks so detailed?"
