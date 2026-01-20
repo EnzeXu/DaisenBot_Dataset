@@ -9,7 +9,7 @@
         "id": "L110000000020",
         "question_id": "Q11000000002",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "In the Dashboard View, each component widget shows two overlaid time-series. The red line represents the incoming request rate, indicating how many requests or messages arrive at the component over time. The blue line represents the average request latency, showing how long requests take to be serviced or completed at that component."
     },
     {
         "id": "L110000001010",
@@ -21,7 +21,7 @@
         "id": "L110000001020",
         "question_id": "Q11000000102",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "Based on the Driver trace, most of the simulation time is spent handling memory copy commands, especially host-to-device (H2D) transfers. These transfers occur repeatedly and last longer overall than kernel launches, which are shorter and appear only periodically. Although kernel execution does take time, it does not dominate the timeline in this window. This indicates that the simulation is transfer-bound rather than compute-bound. The primary bottleneck is the Driver’s memory-copy path, particularly the handling of MemCopyH2D (and to a lesser extent MemCopyD2H) commands, which occupy the majority of the execution time."
     },
     {
         "id": "L110000002010",
@@ -33,7 +33,7 @@
         "id": "L110000002020",
         "question_id": "Q11000000202",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "Thicker bars represent tasks that take longer to complete. At the beginning, the req_in tasks are thick because the L1 cache misses and must send a req_out to fetch data from higher cache levels. Over time, the L2 cache warms up, so most req_in tasks hit in the cache and no longer generate req_out requests, making the bars thinner."
     },
     {
         "id": "L110000003010",
@@ -45,7 +45,7 @@
         "id": "L110000003020",
         "question_id": "Q11000000302",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "In Daisen, the simulation is making progress if tasks start and finish and new work appears over time. In Component View, look for rectangles with right edges and a blue concurrency curve that rises and falls. Tasks that never end and a flat concurrency curve may indicate a stall. To confirm a real stall, widen or shift the time window—if the same tasks never finish and downstream components are idle, the simulation is likely stuck."
     },
     {
         "id": "L110000004010",
@@ -57,6 +57,6 @@
         "id": "L110000004020",
         "question_id": "Q11000000402",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "The highest peak at the very start of the simulation curve is a normal startup effect. When the CU receives a new work-group, it immediately starts one wavefront task per wavefront, often dozens at once. This sudden activation causes the blue concurrency curve to jump sharply. The peak is amplified by front-loaded activity: many instruction fetch tasks are issued simultaneously, the pipeline quickly fills from empty, and multiple SIMD wavefront pools allow many wavefronts to be active at once. Once the pipeline reaches steady-state, concurrency drops to a lower level."
     }
 ]

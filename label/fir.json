@@ -9,7 +9,7 @@
         "id": "L020000000020",
         "question_id": "Q02000000002",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "Daisen generates the 16 components shown in the dashboard by aggregating Akita/MGPUSim trace events for each component within the selected time window and then deriving two time-series metrics for every component widget. The reason exactly 16 dashboards are displayed is due to a UI design choice in Daisen’s Dashboard View. The dashboard is organized as a paged grid that first filters component names based on the specified filter string, then iterates through the matched components in a fixed order, and finally renders 16 components per page to balance readability and performance. Since the URL includes page=0, the view displays the first 16 matching components."
     },
     {
         "id": "L020000001010",
@@ -21,7 +21,7 @@
         "id": "L020000001020",
         "question_id": "Q02000000102",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "In the Component View, which in this case shows the Driver component, each colored horizontal bar represents a task instance recorded in the Akita trace. These bars correspond to different types of tasks, such as driver kernel launch commands, device-to-host memory copy commands, simulation tasks, and outgoing protocol requests. Each bar spans the exact time interval during which that task is active. The dynamic curve shown below the bars represents task concurrency over time. At each time point, the curve indicates how many tasks are active simultaneously, which is determined by counting how many colored bars overlap that moment in time. As a result, when the curve rises, more tasks are overlapping, and when it falls, tasks are completing and the degree of overlap decreases. The bars and the curve are directly connected because they are derived from the same trace data: the bars visualize individual task lifetimes, while the curve is computed by aggregating those lifetimes to measure concurrency at each point in time."
     },
     {
         "id": "L020000002010",
@@ -33,7 +33,7 @@
         "id": "L020000002020",
         "question_id": "Q02000000202",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": " In Daisen's Component View, each colored bar is a task instance (an event) that the component handled during the selected time window. You see multiple colored bars because GPU[1].L2Cache[2] is servicing many requests concurrently and repeatedly (e.g., multiple cache transactions in flight)."
     },
     {
         "id": "L020000003010",
@@ -45,7 +45,7 @@
         "id": "L020000003020",
         "question_id": "Q02000000302",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "To generate this visualization page, you first need to produce an Akita trace using MGPUSim. In MGPUSim, traces are generated through Akita’s tracing hooks, which requires enabling tracing in the run configuration or command-line flags and specifying an output directory for the trace files. Once the trace has been generated, you can start Daisen and provide the path to the trace when launching the Daisen server or user interface. Daisen then loads the trace and uses it as the input to produce the visualization."
     },
     {
         "id": "L020000004010",
@@ -57,6 +57,6 @@
         "id": "L020000004020",
         "question_id": "Q02000000402",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "In Daisen, Parent Task, Current Task, and Subtasks represent the task hierarchy recorded by Akita’s tracing system. Each task in the trace has a unique ID and a ParentID, and Daisen visualizes these relationships as a tree. The Current Task is the task you selected in the UI. The Parent Task is the task whose ID matches the Current Task’s ParentID; it explains why the current task was created. The Subtasks are tasks whose ParentID equals the Current Task’s ID, meaning they were spawned by the current task. This hierarchy reflects causal relationships in the simulation, not CPU threads or software call stacks. In the CU/WFPool view specifically, the parent task is typically a work-group mapping request that assigns wavefronts to a compute unit. The current task usually represents the lifetime of a single wavefront executing on that CU. During this execution, the simulator records finer-grained subtasks, such as instruction execution and memory or fetch activities, which appear as subtasks under the wavefront."
     }
 ]

@@ -9,7 +9,7 @@
         "id": "L140000000020",
         "question_id": "Q14000000002",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "Some L1VCache[?].Local curves are flat because those components see little or no traffic in the selected time window. No requests may be routed to that cache bank during this period. The kernel may not use the Local memory path and instead access global memory. Some cache banks may exist but are not connected to active SIMDs or CUs. Very few events can also appear flat due to dashboard aggregation. You can confirm this by opening the Component View: no tasks means no activity, while a flat curve with tasks usually means sparse events."
     },
     {
         "id": "L140000001010",
@@ -21,7 +21,7 @@
         "id": "L140000001020",
         "question_id": "Q14000000102",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "The colored blocks are tasks recorded in the trace, showing when the Driver performs specific operations. Each block represents one task, with its width showing start and end time. Different colors indicate different task types, such as kernel launches or memory copies. Vertical stacking shows task nesting and overlap between parent tasks and subtasks. Clicking a block opens its Task View with detailed subtasks and timing."
     },
     {
         "id": "L140000002010",

@@ -31,7 +31,7 @@
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What are the colored bars presenting? What is the dynamic curve below presenting? How are they connected?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q02000000201",
@@ -48,7 +48,7 @@
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "Why do we have mulytiple colored bars in this component view?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q02000000301",
@@ -65,7 +65,7 @@
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How do I input the trace to generate this visulation page?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q02000000401",
@@ -82,6 +82,6 @@
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What does the parent task / current task / subtasks mean here?",
-        "options": ["", "", "", ""]
+        "options": []
     }
 ]

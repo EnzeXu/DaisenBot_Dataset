@@ -14,7 +14,7 @@
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What does the blue/red lines representing here?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q11000000101",
@@ -31,7 +31,7 @@
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "For this simulation, what is the bottleneck component?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q11000000201",
@@ -48,7 +48,7 @@
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "What do the bars get thinner after a period of time",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q11000000301",
@@ -65,7 +65,7 @@
         "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How do I understand from the visualization if the simulation is stuck or making progress?",
-        "options": ["", "", "", ""]
+        "options": []
     },
     {
         "id": "Q11000000401",
@@ -81,7 +81,7 @@
         "view_id": "V110000004",
         "question_type": "open_ended",
         "question_class": "explanation",
-        "question": "Why the highest peak exists in the very in the very beginning of the simulation?",
-        "options": ["", "", "", ""]
+        "question": "Why the highest peak exists in the very beginning of the simulation curve?",
+        "options": []
     }
 ]
