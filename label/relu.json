@@ -3,7 +3,7 @@
         "id": "L090000000010",
         "question_id": "Q09000000001",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[A] Yes"
     },
     {
         "id": "L090000000020",
@@ -15,19 +15,19 @@
         "id": "L090000001010",
         "question_id": "Q09000000101",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "TODO"
     },
     {
         "id": "L090000001020",
         "question_id": "Q09000000102",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "[C] 4"
     },
     {
         "id": "L090000002010",
         "question_id": "Q09000000201",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[A] Different task types"
     },
     {
         "id": "L090000002020",
@@ -39,19 +39,19 @@
         "id": "L090000003010",
         "question_id": "Q09000000301",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[A] Throughput"
     },
     {
         "id": "L090000003020",
         "question_id": "Q09000000302",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "[A] Yes"
     },
     {
         "id": "L090000004010",
         "question_id": "Q09000000401",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[B] 37"
     },
     {
         "id": "L090000004020",

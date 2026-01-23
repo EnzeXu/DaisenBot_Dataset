@@ -3,7 +3,7 @@
         "id": "L170000000010",
         "question_id": "Q17000000001",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "TODO"
     },
     {
         "id": "L170000000020",
@@ -15,7 +15,7 @@
         "id": "L170000001010",
         "question_id": "Q17000000101",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "TODO"
     },
     {
         "id": "L170000001020",
@@ -27,7 +27,7 @@
         "id": "L170000002010",
         "question_id": "Q17000000201",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[B] req_in"
     },
     {
         "id": "L170000002020",
@@ -39,7 +39,7 @@
         "id": "L170000003010",
         "question_id": "Q17000000301",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "TODO"
     },
     {
         "id": "L170000003020",
@@ -51,7 +51,7 @@
         "id": "L170000004010",
         "question_id": "Q17000000401",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[B] 2"
     },
     {
         "id": "L170000004020",

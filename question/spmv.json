@@ -2,7 +2,7 @@
     {
         "id": "Q17000000001",
         "view_id": "V170000000",
-        "question_type": "multiple_choice",
+        "question_type": "open_ended",
         "question_class": "explanation",
         "question": "How would you use visualization to validate a new GPU design idea?"
     },
@@ -33,8 +33,8 @@
         "view_id": "V170000002",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "Which parameter most directly affects the number of components shown?",
-        "options": ["Number of CUs", "Clock frequency", "Cache size", "Trace length"]
+        "question": "Are there more green req_out tasks or brown req_in tasks?",
+        "options": ["req_out", "req_in", "They are the same"]
     },
     {
         "id": "Q17000000202",
@@ -46,10 +46,9 @@
     {
         "id": "Q17000000301",
         "view_id": "V170000003",
-        "question_type": "multiple_choice",
+        "question_type": "open_ended",
         "question_class": "explanation",
-        "question": "When would you switch from overview view to component view?",
-        "options": ["", "", "", ""]
+        "question": "When would you switch from overview view to component view?"
     },
     {
         "id": "Q17000000302",
@@ -63,14 +62,14 @@
         "view_id": "V170000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many wavefronts are there in the page?"
+        "question": "How many wavefronts are there in the page?",
+        "options": ["1", "2", "3", "4"]
     },
     {
         "id": "Q17000000402",
         "view_id": "V170000004",
-        "question_type": "multiple_choice",
+        "question_type": "open_ended",
         "question_class": "explanation",
-        "question": "Which metric is best for comparing load balance across components?",
-        "options": ["Utilization", "Latency", "Power", "Address range"]
+        "question": "Which metric is best for comparing load balance across components?"
     }
 ]

@@ -26,8 +26,8 @@
         "view_id": "V090000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "What the gap between two blocks indicate?",
-        "options": ["Idle time", "Computation time", "Memory access time", "Latency"]
+        "question": "How many green components are there in total?",
+        "options": ["0", "2", "4", "6"]
     },
     {
         "id": "Q09000000201",
@@ -66,7 +66,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many wavefronts are there in the page?",
-        "options": ["", "", "", ""]
+        "options": ["27", "37", "47", "57"]
     },
     {
         "id": "Q09000000402",

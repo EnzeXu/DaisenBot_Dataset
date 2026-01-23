@@ -3,7 +3,7 @@
         "id": "L030000000010",
         "question_id": "Q03000000001",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[A] L1V"
     },
     {
         "id": "L030000000020",
@@ -15,7 +15,7 @@
         "id": "L030000001010",
         "question_id": "Q03000000101",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[B] 16"
     },
     {
         "id": "L030000001020",
@@ -27,7 +27,7 @@
         "id": "L030000002010",
         "question_id": "Q03000000201",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[A] 2"
     },
     {
         "id": "L030000002020",
@@ -39,7 +39,7 @@
         "id": "L030000003010",
         "question_id": "Q03000000301",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[C] 34"
     },
     {
         "id": "L030000003020",
@@ -51,7 +51,7 @@
         "id": "L030000004010",
         "question_id": "Q03000000401",
         "answer_source": "human",
-        "answer": "[]"
+        "answer": "[A] 1"
     },
     {
         "id": "L030000004020",
