@@ -20,7 +20,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many driver launch kernal events are there?",
-        "options": ["16", "17", "12", "20"]
+        "options": ["12", "16", "20", "24"]
     },
     {
         "id": "Q06000000102",
@@ -35,7 +35,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many req_out memory read events are there?",
-        "options": ["2", "3", "5", "0"]
+        "options": ["1", "2", "3", "4"]
     },
     {
         "id": "Q06000000202",
@@ -49,8 +49,8 @@
         "view_id": "V060000003",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many events req_in and req_out events are NOT overlapping?",
-        "options": ["2", "4", "5", "1"]
+        "question": "How many req_ins events having no req_out events included?",
+        "options": ["1", "2", "3", "4"]
     },
     {
         "id": "Q06000000302",

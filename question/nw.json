@@ -20,7 +20,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many blue launch kernel command events are there?",
-        "options": ["5", "16", "9", "20"]
+        "options": ["5", "16", "23", "30"]
     },
     {
         "id": "Q03000000102",
@@ -35,7 +35,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many thin req_in memory write events are there in the second row?",
-        "options": ["2", "0", "10", "20"]
+        "options": ["1", "2", "3", "4"]
     },
     {
         "id": "Q03000000202",
@@ -50,7 +50,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many memory read events are there in total?",
-        "options": ["16", "8", "34", "24"]
+        "options": ["14", "24", "34", "44"]
     },
     {
         "id": "Q03000000302",
@@ -64,7 +64,7 @@
         "view_id": "V030000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many wavefronts are there in the page?",
+        "question": "How many wavefront(s) are there in the page?",
         "options": ["1", "2", "3", "4"]
     },
     {

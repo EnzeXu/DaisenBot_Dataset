@@ -15,7 +15,7 @@
         "id": "L060000001010",
         "question_id": "Q06000000101",
         "answer_source": "human",
-        "answer": "[A] 16"
+        "answer": "[B] 16"
     },
     {
         "id": "L060000001020",
@@ -27,7 +27,7 @@
         "id": "L060000002010",
         "question_id": "Q06000000201",
         "answer_source": "human",
-        "answer": "[A] 2"
+        "answer": "[B] 2"
     },
     {
         "id": "L060000002020",
@@ -39,7 +39,7 @@
         "id": "L060000003010",
         "question_id": "Q06000000301",
         "answer_source": "human",
-        "answer": "[A] 2"
+        "answer": "[B] 2"
     },
     {
         "id": "L060000003020",

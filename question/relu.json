@@ -17,17 +17,17 @@
     {
         "id": "Q09000000101",
         "view_id": "V090000001",
-        "question_type": "open_ended",
-        "question_class": "explanation",
-        "question": "What the block in the blue box represent?"
-    },
-    {
-        "id": "Q09000000102",
-        "view_id": "V090000001",
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "How many green components are there in total?",
         "options": ["0", "2", "4", "6"]
+    },
+        {
+        "id": "Q09000000102",
+        "view_id": "V090000001",
+        "question_type": "open_ended",
+        "question_class": "explanation",
+        "question": "What the block in the blue box represent?"
     },
     {
         "id": "Q09000000201",
@@ -50,7 +50,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "Which metric is most likely represented by the dynamic curve?",
-        "options": ["Throughput", "Latency", "Occupancy", "Energy consumption"]
+        "options": ["Throughput", "Latency", "Temperature", "Energy consumption"]
     },
     {
         "id": "Q09000000302",
@@ -65,7 +65,7 @@
         "view_id": "V090000004",
         "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How many wavefronts are there in the page?",
+        "question": "How many different wavefronts are there in the page?",
         "options": ["27", "37", "47", "57"]
     },
     {

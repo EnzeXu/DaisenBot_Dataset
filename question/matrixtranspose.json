@@ -50,7 +50,7 @@
         "question_type": "multiple_choice",
         "question_class": "explanation",
         "question": "When does the highest peak in the curve below occur?",
-        "options": ["105.5us", "108.5us", "111.5us", "114.5us"]
+        "options": ["84.5us", "94.5us", "104.5us", "114.5us"]
     },
     {
         "id": "Q16000000302",

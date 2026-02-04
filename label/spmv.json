@@ -3,7 +3,7 @@
         "id": "L170000000010",
         "question_id": "Q17000000001",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "[C] 8"
     },
     {
         "id": "L170000000020",
@@ -15,7 +15,7 @@
         "id": "L170000001010",
         "question_id": "Q17000000101",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "[B] 35us"
     },
     {
         "id": "L170000001020",
@@ -39,7 +39,7 @@
         "id": "L170000003010",
         "question_id": "Q17000000301",
         "answer_source": "human",
-        "answer": "TODO"
+        "answer": "[B] req_in"
     },
     {
         "id": "L170000003020",

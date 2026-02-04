@@ -2,9 +2,10 @@
     {
         "id": "Q17000000001",
         "view_id": "V170000000",
-        "question_type": "open_ended",
+        "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "How would you use visualization to validate a new GPU design idea?"
+        "question": "How many components in the overview have “L1VCache” in their names?",
+        "options": ["2", "4", "8", "16"]
     },
     {
         "id": "Q17000000002",
@@ -16,9 +17,10 @@
     {
         "id": "Q17000000101",
         "view_id": "V170000001",
-        "question_type": "open_ended",
+        "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "Why is it important to visualize subtasks separately from parent tasks?"
+        "question": "How long is between the two peaks in the dynamic curve?",
+        "options": ["15us", "35us", "55us", "75us"]
     },
     {
         "id": "Q17000000102",
@@ -46,9 +48,10 @@
     {
         "id": "Q17000000301",
         "view_id": "V170000003",
-        "question_type": "open_ended",
+        "question_type": "multiple_choice",
         "question_class": "explanation",
-        "question": "When would you switch from overview view to component view?"
+        "question": "What do the green blocks represent?",
+        "options": ["wavefront", "req_in", "req_out", "memcopy"]
     },
     {
         "id": "Q17000000302",
